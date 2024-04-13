@@ -1,0 +1,29 @@
+.todo-input{
+    padding: 1vw;
+    width: 30vw;
+}
+.main-div{
+    padding: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.show-todo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2vw;
+    gap: 5vw;
+    column-gap: 2vw;
+    margin-top: 2vw;
+}
+input[type=checkbox]{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+::placeholder {
+    font-weight: bold;
+}
+.todo_text{
+    font-size: 2vw;
+}
